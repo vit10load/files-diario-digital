@@ -191,6 +191,11 @@ body, html {
 
         margin-top: -14px;
     }
+    
+    .data-postagem span {
+        
+        color: #ccc;
+    }
 
     .autor-post {
 
@@ -285,6 +290,50 @@ body, html {
 
     }
 }
+
+
+
+
+
+/* DESIGN DATA DA POSTAGEM COR DO SPAN */
+
+@media screen and (min-width: 951px) {
+    
+    .data-postagem span {
+        
+        color: #ccc;
+    }
+}
+
+
+
+
+
+
+
+
+/* DESIGN BOTAO FB-LIKE */
+
+@media screen and (max-width: 950px){
+    
+    .info-post ul li div.fb-like {
+
+        width: 65px;
+        overflow: hidden;
+
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 950px){
 
@@ -1025,11 +1074,24 @@ figcaption.texto-legenda {
 
 /* CSS PARA BOTAO COMPARTILHAR NO FINAL DA NOTICIA */
 
-main article div div.fb-like {
+main article div.fb-like {
 
     width: 60px;
     padding-right: 13px;
     overflow: hidden;
+}
+
+@media screen and (max-width: 950px) {
+    
+    main article div.fb-like {
+         
+        float: left;
+        left: 27%;
+        overflow: hidden;
+   
+    }
+    
+
 }
 
 
@@ -1115,17 +1177,95 @@ main article div div.fb-like {
     }
 
 
-/* SLIDER SWIPER*/
-.gallery-top .swiper-slide,
-.gallery-thumbs .swiper-slide {
-    opacity: 0.4;
-    width: auto;
-}
-.gallery-top .swiper-slide img,
-.gallery-thumbs .swiper-slide img {
-    width: 100%;
-    height: auto;
-}
 
-.gallery-top .swiper-slide-active,
-.gallery-thumbs .swiper-slide-thumb-active { opacity: 1;}
+
+
+
+
+
+
+
+
+
+    /* SLIDER SWIPER EDIÇÃO DAS IMAGENS E CONTAINERS*/
+
+
+    
+
+    .gallery-top .swiper-slide,
+    .gallery-thumbs .swiper-slide {
+        opacity: 0.2;
+        width: auto;
+
+    }
+
+    
+    .gallery-thumbs { padding-bottom: 60px; }    
+
+
+    .gallery-top .swiper-slide img,
+    .gallery-thumbs .swiper-slide img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .gallery-top .swiper-slide-active,
+    .gallery-thumbs .swiper-slide-thumb-active { opacity: 1;}
+
+
+    
+    div.swiper-button-next.swiper-button-white {
+        
+        background-image: url('../img/next.png');
+        background-size: 100%;
+        width: 50px;
+        height: 50px;
+        background-repeat: no-repeat;
+        right: 50%;
+        margin-right: -600px;
+            
+    }
+
+    /* MOBILE - DESIGN BUTTON PROXIMO */
+
+    @media screen and (max-width: 950px) {
+        
+        div.swiper-button-next.swiper-button-white {
+            
+            right: 0;
+            margin-right: 0;
+            
+        }
+    }
+    
+    div.swiper-button-prev.swiper-button-white {
+        
+        background-image: url('../img/prev.png');
+        background-size: 100%;
+        width: 50px;
+        height: 50px;
+        background-repeat: no-repeat;
+        left: 50%;
+        margin-left: -600px;
+        
+    }
+    
+    @media screen and (max-width: 950px) {
+        
+        div.swiper-button-prev.swiper-button-white {
+            
+            left: auto;
+            margin-left: 0;
+        }
+    }
+
+
+
+
+
+
+
+
+    
+
