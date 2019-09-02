@@ -1,0 +1,23 @@
+Anotações para versão mobile:
+
+1 info post ul li {
+
+deixAR color
+font famyli
+
+
+margin 0 5px
+
+h1 com 24 px font
+padding bottom 20px
+
+
+figure.imagem-centro 
+
+margin 0 0 20px 0;
+
+
+footer padding 0 20px;
+
+diario digital entrar no site tentar fazer igual.
+
