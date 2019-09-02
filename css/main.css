@@ -5,7 +5,7 @@
 /* CORPO DO SITE */
 
 body, html {
-    
+
     width: 100%;
     height: auto;
     background-color: #1f1f1f;
@@ -21,7 +21,7 @@ body, html {
 
 
     .header-topo {
-        
+
         width: 100%;
         background-color: #063e73;
         overflow: hidden;
@@ -50,16 +50,16 @@ body, html {
 
 /* design responsive */
 @media screen and (max-width: 950px){
-    
+
     .header-topo {
-        
+
         width: 100%;
         background-color: #063e73;
         overflow: hidden;
     }
 
     .img-logo {
-        
+
         margin: 0 auto;
         display: block;
         width: 160px;
@@ -67,7 +67,7 @@ body, html {
     }
 
     .header-titulos {
-        
+
         width: 100%;
         height: auto;
         overflow: hidden;
@@ -134,9 +134,9 @@ body, html {
 
 
 @media screen and (max-width: 950px) {
-    
+
     #centro {
-        
+
         width: 100%;
         text-align: center;
         padding-top: 50px;
@@ -144,20 +144,20 @@ body, html {
     }
 
     #centro h5 {
-        
+
         font-size: 15px;
         padding-bottom: 9px;
 
     }
 
     #centro h1 {
-        
+
         padding-bottom: 40px;
         font-size: 24px;
     }
 
     #centro h2 {
-  
+
         font-size: 18px;
     }
 }
@@ -170,23 +170,23 @@ body, html {
 /* HEADER - HORARIO - AUTOR - COMPARTILHAR E DATA */
 
 @media screen and (min-width: 951px){
-    
+
      .info-post {
-        
+
         margin: auto;
         width: 620px;
         overflow-x: hidden;
     }
 }
-   
+
 @media screen and (max-width: 950px){
-    
+
     .info-post {
-        
+
         margin: 0;
         height: auto;
     }
-    
+
     .data-postagem {
 
         margin-top: -14px;
@@ -194,7 +194,7 @@ body, html {
 
     .autor-post {
 
-        margin-top: 5px; 
+        margin-top: 5px;
         padding-bottom: 5px;
     }
 
@@ -207,7 +207,7 @@ body, html {
     }
 
     .horario-da-postagem img {
-        
+
         float: left;
         margin-left: 7px;
         margin-right: 0;
@@ -216,20 +216,20 @@ body, html {
 
 
     .info-post ul li.linha-data-autor-horario p {
-        
+
         margin-left: 20px;
         margin-right: 20px;
         box-sizing: border-box;
     }
 
     .info-post ul li.linha-data-autor-horario img {
-        
+
         display: flex;
         flex-direction: row;
         align-items: center;
         margin-right: 10px;
     }
-    
+
 }
 
 
@@ -237,19 +237,19 @@ body, html {
 
 
     .info-post ul {
-        
+
         overflow-x: hidden;
         border-bottom: 1px solid #cacaca;
         border-top: 1px solid #cacaca;
     }
-    
+
 }
 
 @media screen and (max-width: 950px){
-    
-    
+
+
     .info-post ul {
-        
+
         overflow-x: hidden;
         border-top: 1px solid #cacaca;
         padding-bottom: 40px;
@@ -258,10 +258,10 @@ body, html {
 }
 
 @media screen and (min-width: 951px){
-    
+
 
     .info-post ul li {
-        
+
         display: inline-block;
         list-style-type: none;
         font-family: 'Open Sans', sans-serif;
@@ -273,23 +273,23 @@ body, html {
         padding: 20px 20px 20px 0;
         margin-right: 20px;
     }
-    
+
     .info-post ul li div.fb-like {
-        
+
         width: 70px;
         display: inline-block;
         float: left;
         margin-right: 0px;
         margin-top: 65px;
         overflow: hidden;
-        
+
     }
 }
 
 @media screen and (max-width: 950px){
-    
+
     .info-post ul li {
-        
+
         height: auto;
         display: inline-block;
         float: left;
@@ -300,12 +300,12 @@ body, html {
         padding-bottom: 20px;
         padding-top: 20px;
     }
-    
-}  
+
+}
 
 
 @media screen and (min-width: 951px) {
-    
+
     .info-post ul li.linha-data-autor-horario {
 
         border-right: 1px solid #cacaca;
@@ -314,9 +314,9 @@ body, html {
 
 
 @media screen and (max-width: 950px){
-    
+
     .info-post ul li.linha-data-autor-horario  {
-        
+
         display: inline-block;
         float: left;
         border-right: 1px solid #cacaca;
@@ -324,18 +324,18 @@ body, html {
 }
 
 @media screen and (min-width: 951px){
-    
+
     .info-post ul li p {
-     
+
         display: inline-block;
         float: left;
-     
+
     }
-    
+
 }
 
 @media screen and (max-width: 950px){
-    
+
     .info-post ul li p {
 
         display: flex;
@@ -348,19 +348,19 @@ body, html {
 @media screen and (min-width: 951px){
 
     .info-post ul li img {
-        
+
         display: inline-block;
         float: left;
         margin-right: 10px;
 
     }
-    
+
 }
 
 @media screen and (max-width: 950px){
-    
+
     .info-post ul li img {
-        
+
         height: auto;
         display: flex;
         flex-direction: row;
@@ -369,25 +369,25 @@ body, html {
     }
 
 }
-   
+
     .info-post ul li p strong {
 
         color: #f1f1f1;
     }
 
 @media screen and (max-width: 950px){
-    
+
     .info-post ul li p strong {
-        
+
         float: left;
         color: #f1f1f1;
     }
 }
 
 @media screen and (min-width: 951px){
-    
+
     .info-post ul li.share {
-        
+
         margin: 0;
         padding-right: 0;
         float: right;
@@ -398,33 +398,33 @@ body, html {
 }
 
 @media screen and (max-width: 950px) {
-    
+
     .info-post ul li.share {
-        
+
         width: 100%;
         display: flex;
         justify-content: center;
-        padding-top: 20px; 
+        padding-top: 20px;
         padding-bottom: 20px;
         border-top: 1px solid #ccc;
     }
-    
+
 }
 
 @media screen and (min-width: 951px){
-    
+
     .info-post ul li.share img {
-        
+
         margin-left: 10px;
         margin-right: 0px;
         margin-top: 65px;
     }
-    
+
 }
 
-    
+
 @media screen and (max-width: 950px){
-    
+
     .info-post ul li.share img {
 
         padding-right: 5px;
@@ -438,13 +438,13 @@ body, html {
 /* CONTEUDO PRINCIPAL - COMPOE TODO O CORPO DO SITE */
 
 main {
-    
+
     margin: auto;
     width: 940px;
 }
 
 @media screen and (max-width: 950px){
-    
+
     main {
 
         width: 100%;
@@ -458,7 +458,7 @@ main {
 
 
 main article {
-    
+
     margin: auto;
     width: 620px;
     font-size: 20px;
@@ -470,37 +470,37 @@ main article {
 }
 
 @media screen and (max-width: 950px){
-    
+
     main article {
-    
+
         width: 100%;
         font-size: 16px;
         text-align: left;
         line-height: 24px;
     }
-    
+
 }
 
 
 
 
 main article p {
-    
+
     padding-bottom: 40px;
 }
 
 @media screen and (max-width: 950px){
-    
+
      main article p {
-         
+
         padding-bottom: 40px;
     }
-    
+
 }
 
 
 figcaption.texto-legenda {
-    
+
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -521,21 +521,21 @@ figcaption.texto-legenda {
     }
 
 @media screen and (max-width: 950px){
-    
+
     article bloquote {
-        
+
         margin: 0 auto;
         display: block;
         width: 100%;
         height: auto;
     }
-    
+
      article bloquote p {
-        
+
         font-size: 16px;
         padding: 13px;
     }
-    
+
 }
 
     .autor {
@@ -548,7 +548,7 @@ figcaption.texto-legenda {
     }
 
 @media screen and (max-width: 950px){
-    
+
      .autor {
         display: block;
         margin: 0 auto;
@@ -569,17 +569,17 @@ figcaption.texto-legenda {
     }
 
 @media screen and (max-width: 950px){
-    
-     
+
+
     .aspas-noticia {
-        
+
         display: block;
         margin: 0 auto;
         width: 30%;
         height: auto;
         padding-bottom: 20px;
     }
-    
+
 }
 
 
@@ -593,21 +593,21 @@ figcaption.texto-legenda {
     }
 
 @media screen and (max-width: 950px){
-    
+
       .aspas-noticia-baixo {
-          
+
         display: block;
         margin: 0 auto;
         width: 30%;
         height: auto;
         padding-bottom: 40px;
     }
-    
+
 }
 
 
     .texto-citacao {
-        
+
         font-size: 40px;
         font-weight: bold;
         color: #f1f1f1;
@@ -616,8 +616,8 @@ figcaption.texto-legenda {
     }
 
 @media screen and (max-width: 950px){
-    
-    
+
+
     .texto-citacao {
         font-size: 24px;
         margin: 0 auto;
@@ -634,19 +634,19 @@ figcaption.texto-legenda {
     }
 
 @media screen and (max-width: 950px) {
-    
+
 
     article p iframe {
         margin: 0;
         width: 100%;
         height: auto;
     }
-    
+
 }
 
 
    article p strong {
-       
+
         color: #ffff;
     }
 
@@ -668,9 +668,9 @@ figcaption.texto-legenda {
     }
 
 @media screen and (max-width: 950px) {
-    
+
      figure.imagem-centro-posicao {
-         
+
         margin: auto;
         width: 100%;
         height: auto;
@@ -691,11 +691,11 @@ figcaption.texto-legenda {
     }
 
 @media screen and (max-width: 950px){
-    
-       
+
+
 
     .texto-legenda {
-        
+
         width: 100%;
         height: auto;
         font-size: 12px;
@@ -709,15 +709,15 @@ figcaption.texto-legenda {
     }
 
 @media screen and (max-width: 950px) {
-    
+
     .imagem-centro {
-        
+
         display: block;
         margin: 0 auto;
         width: 100%;
         height: auto;
     }
-    
+
 }
 
 
@@ -744,9 +744,9 @@ figcaption.texto-legenda {
     }
 
 @media screen and (max-width: 950px) {
-    
+
       .figure-1 {
-          
+
         margin: 0 auto;
         width: 100%;
         float: left;
@@ -757,16 +757,16 @@ figcaption.texto-legenda {
 
 
     .figure-1 img {
-        
+
         width: 381px;
     }
 
 
 @media screen and (max-width: 950px) {
-    
-    
+
+
     .figure-1 img {
-        
+
         width: 100%;
         height: auto;
     }
@@ -777,7 +777,7 @@ figcaption.texto-legenda {
 
 
     .figure-1 figcaption {
-        
+
         width: 381px;
         padding-bottom: 20px;
         border-bottom: 1px solid #cacaca;
@@ -785,10 +785,10 @@ figcaption.texto-legenda {
     }
 
 @media screen and (max-width: 950px) {
-    
-    
+
+
     .figure-1 figcaption {
-        
+
         width: 100%;
         height: auto;
         padding-bottom: 20px;
@@ -806,12 +806,12 @@ figcaption.texto-legenda {
     }
 
 @media screen and (max-width: 950px) {
-    
-    
+
+
     .figure-1.direita {
 
         margin: 0 auto;
-      
+
     }
 
 }
@@ -839,15 +839,15 @@ figcaption.texto-legenda {
     }
 
 @media screen and (max-width: 950px) {
-    
+
        footer {
-           
+
         width: 100%;
         height: auto;
         padding: 0 20px;
         box-sizing: border-box;
     }
-    
+
 }
 
 
@@ -858,9 +858,9 @@ figcaption.texto-legenda {
     }
 
 @media screen and (max-width: 950px) {
-    
+
       .rodape-pagina {
-          
+
         width: 100%;
     }
 }
@@ -868,19 +868,19 @@ figcaption.texto-legenda {
 
 
     footer ul li {
-        
+
         padding: 8px;
-        
+
     }
 
 @media screen and (max-width: 950px) {
-    
+
 
     footer ul li {
-        
+
         padding: 10px;
     }
-    
+
 }
 
 
@@ -895,14 +895,14 @@ figcaption.texto-legenda {
 
 
 @media screen and (max-width: 950px) {
-    
-    
+
+
 
     footer .div-esquerda {
-        
+
         width: 50%;
     }
-    
+
 }
 
 
@@ -916,14 +916,14 @@ figcaption.texto-legenda {
 
 
 @media screen and (max-width: 950px) {
-    
+
 
     footer .div-direita {
-        
+
         width: 50%;
         float: left;
     }
-    
+
 }
 
 
@@ -944,10 +944,10 @@ figcaption.texto-legenda {
 
 
 @media screen and (max-width: 950px) {
-    
-    
+
+
     .div-direita .titulo {
-  
+
         font-size: 12px;
     }
 }
@@ -963,13 +963,13 @@ figcaption.texto-legenda {
 
 
 @media screen and (max-width: 950px) {
-    
-    
+
+
     .div-esquerda .titulo {
-        
+
         font-size: 12px;
     }
-    
+
 }
 
 
@@ -982,11 +982,11 @@ figcaption.texto-legenda {
 
 
 @media screen and (max-width: 950px) {
-    
-    
+
+
 
     .div-esquerda .nome-titulo {
-        
+
         font-size: 12px;
         margin-top: -12px;
     }
@@ -1003,14 +1003,14 @@ figcaption.texto-legenda {
 
 
 @media screen and (max-width: 950px) {
-    
-    
+
+
 
     .div-direita .nome-titulo {
-        
+
         font-size: 12px;
     }
-    
+
 }
 
 
@@ -1026,7 +1026,7 @@ figcaption.texto-legenda {
 /* CSS PARA BOTAO COMPARTILHAR NO FINAL DA NOTICIA */
 
 main article div div.fb-like {
-    
+
     width: 60px;
     padding-right: 13px;
     overflow: hidden;
@@ -1052,18 +1052,18 @@ main article div div.fb-like {
     }
 
 /* estilzando link de ancora no bootom do site */
-    
+
     .div-meio span a {
-        
+
         color: #cccc;
         text-decoration: none;
 
     }
 
 @media screen and (max-width: 950px) {
-    
+
     .div-meio {
-        
+
         margin: auto;
         width: 100%;
         height: auto;
@@ -1074,7 +1074,7 @@ main article div div.fb-like {
         overflow: hidden;
 
     }
-    
+
 }
 
 
@@ -1089,12 +1089,12 @@ main article div div.fb-like {
     }
 
 @media screen and (max-width: 950px) {
-    
-    
+
+
     .div-meio ul li {
         margin: 0;
         font-size: 13px;
-      
+
     }
 }
 
@@ -1116,60 +1116,16 @@ main article div div.fb-like {
 
 
 /* SLIDER SWIPER*/
-    .swiper-container {
-        
-      width: 100%;
-      height: auto !important;
-    }
-    .swiper-slide {
-        
-      height: auto !important;
-     
-    }
+.gallery-top .swiper-slide,
+.gallery-thumbs .swiper-slide {
+    opacity: 0.4;
+    width: auto;
+}
+.gallery-top .swiper-slide img,
+.gallery-thumbs .swiper-slide img {
+    width: 100%;
+    height: auto;
+}
 
-    .swiper-wrapper {
-        
-        position: relative !important;
-    }
-
-    div.swiper-slide img {
-        
-        -webkit-background-size: 100% 100% !important;
-        -moz-background-size: 100% 100% !important;
-        -o-background-size: 100% 100% !important;
-        background-size: 100% 100% !important;
-        width: auto;
-        height: 100%;
-
-    }
-
-    .swiper-wrapper {
-        
-        position: relative !important;
-    }
-
-    div.swiper-slide.swiper-slide-prev {
-        
-        width: auto !important;
-        height: auto;
-        
-    }
-
-    div.swiper-slide.swiper-slide-next {
-        
-        width: auto !important;
-        height: auto;
-        
-    }
-
-
-
-        
-
-
-
-
-
-
-
-
+.gallery-top .swiper-slide-active,
+.gallery-thumbs .swiper-slide-thumb-active { opacity: 1;}
